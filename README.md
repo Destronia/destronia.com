@@ -1,3 +1,6 @@
+[![Deploy Jekyll with GitHub Pages](https://github.com/Destronia/destronia_com/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/Destronia/destronia_com/actions/workflows/jekyll-gh-pages.yml)
+[![CodeQL](https://github.com/Destronia/destronia_com/actions/workflows/codeql.yml/badge.svg)](https://github.com/Destronia/destronia_com/actions/workflows/codeql.yml)
+
 # destronia_com
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
