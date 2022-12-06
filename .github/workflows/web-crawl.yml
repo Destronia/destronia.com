@@ -1,0 +1,32 @@
+name: Crawl website and update repository
+
+on:
+  schedule:
+    # Run the workflow every day at 12:00 AM
+    - cron: '0 0 * * *'
+
+jobs:
+  crawl-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        # Check out the repository contents to the default directory
+        path: /docs
+
+    - name: Crawl website and download files
+      run: |
+        # Use the `wget` command to crawl the website and download all of the files
+        wget -r -np https://destronia.com
+
+    - name: Commit changes and push to repository
+      run: |
+        # Add the downloaded files to the repository
+        git add /docs
+
+        # Commit the changes with a message
+        git commit -m "Update repository with files from website"
+
+        # Push the changes to the remote repository
+        git push
