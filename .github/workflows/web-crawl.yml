@@ -1,8 +1,10 @@
 name: Crawl website and update repository
 
 on:
+  # Trigger the workflow when a user manually dispatches it
+  workflow_dispatch:
+  # Run the workflow every day at 12:00 AM
   schedule:
-    # Run the workflow every day at 12:00 AM
     - cron: '0 0 * * *'
 
 jobs:
