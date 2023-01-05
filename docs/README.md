@@ -7,7 +7,7 @@
 # destronia.com
 ### The source code for the destronia.com website.
 
-The code is located in the [/docs](https://github.com/Destronia/destronia_com/tree/main/docs) folder and uses the [index.htm](https://github.com/Destronia/destronia_com/blob/main/docs/index.htm) file for the [homepage](https://destronia.github.io/destronia_com).
+The code is located in the [/docs](https://github.com/Destronia/destronia_com/tree/main/docs) folder and uses the [index.htm](https://github.com/Destronia/destronia_com/blob/main/docs/index.html) file for the [homepage](https://destronia.github.io/destronia_com).
 
 ## Contributors ✨
 
